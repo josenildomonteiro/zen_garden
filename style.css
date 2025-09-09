@@ -1,0 +1,35 @@
+:root {
+  /* Paleta de Cores */
+  --cor-fundo: #F5F5DC; /* bege claro */
+  --cor-fonte: #333333; /* cinza escuro */
+  --cor-destaque: #007BFF; /* azul vibrante */
+
+  /* Cores adicionais (opcional) */
+  --cor-sucesso: #28a745;   /* verde */
+  --cor-aviso: #ffc107;     /* amarelo */
+  --cor-erro: #dc3545;      /* vermelho */
+}
+
+/* Exemplo de uso na sua página */
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-fonte);
+  font-family: sans-serif;
+}
+
+h1 {
+  color: var(--cor-destaque);
+}
+
+.botao-destaque {
+  background-color: var(--cor-destaque);
+  color: #FFFFFF; /* branco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao-destaque:hover {
+  filter: brightness(90%);
+}
