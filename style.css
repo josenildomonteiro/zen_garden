@@ -1,35 +1,49 @@
-:root {
-  /* Paleta de Cores */
-  --cor-fundo: #F5F5DC; /* bege claro */
-  --cor-fonte: #333333; /* cinza escuro */
-  --cor-destaque: #007BFF; /* azul vibrante */
+/* Color Theme Swatches in Hex */
+/*.background{ color: #BAD9D0; }
+.principal { color: #17261E; }
+.destaque { color: #2D402A; }
+.background { color: #95BF6B; }*/
 
-  /* Cores adicionais (opcional) */
-  --cor-sucesso: #28a745;   /* verde */
-  --cor-aviso: #ffc107;     /* amarelo */
-  --cor-erro: #dc3545;      /* vermelho */
+html {
+  background: #BAD9D0;
+  color: #2D402A;
 }
 
-/* Exemplo de uso na sua página */
 body {
-  background-color: var(--cor-fundo);
-  color: var(--cor-fonte);
-  font-family: sans-serif;
+    width: 960px;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+p {
+    text-indent: 1em;
+}
+
+
+h1, h2, h3 {
+    text-align: center;  
 }
 
 h1 {
-  color: var(--cor-destaque);
+    font-size: 1.8rem;
 }
 
-.botao-destaque {
-  background-color: var(--cor-destaque);
-  color: #FFFFFF; /* branco */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+h2 {
+    font-size: 1.4rem;
 }
 
-.botao-destaque:hover {
-  filter: brightness(90%);
+h3 {
+    font-size: 1.2rem;
+}
+
+.resumo {
+    text-align: right;
+}
+
+.principal p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
 }
