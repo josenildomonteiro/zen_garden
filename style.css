@@ -22,7 +22,7 @@ aside ul li {
 
 .design-selection {
   position: absolute;
-  top: 500px;
+  top: 400px;
   left: 62%;
   padding-left: 2%;
   padding-right: 2%;
@@ -160,10 +160,9 @@ a:hover {
         position: static;
         width: 100%;
     }
-    .explanation{
+    .explanation {
         border-right: none;
-        width 100%;
-
+        width: 100%;
     }
 
     #zen-intro {
@@ -186,5 +185,14 @@ a:hover {
     #zen-intro header {
         background-color: #fbfcbd;
         color: #1f295c;
+    }
+
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
     }
 }
