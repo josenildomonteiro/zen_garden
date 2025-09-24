@@ -22,7 +22,7 @@ aside ul li {
 
 .design-selection {
   position: absolute;
-  top: 520px;
+  top: 500px;
   left: 62%;
   padding-left: 2%;
   padding-right: 2%;
@@ -137,17 +137,54 @@ a:hover {
     color: #8b263fa1;
 }
 
-.main :first-of-type:first-letter {
+.main p:first-of-type:first-letter {
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
-    flotat: left;
+    float: left;
 }
 
 .design-selection li {
     border-top: #1f295c solid 1px;
+    padding-top: 5px;
 }
 
 .design-selection li:last-of-type {
     border-bottom: #1f295c solid 1px;
     padding-bottom: 5px;
+}
+
+/* exercício media query*/
+
+@media screen and (max-width: 768px) {
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+    .explanation{
+        border-right: none;
+        width 100%;
+
+    }
+
+    #zen-intro {
+        height: auto;
+    }
+
+    .participation {
+        flex-direction: column;
+    }
+
+    p {
+        text-indent: 0;
+    }
+}
+
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #zen-intro header {
+        background-color: #fbfcbd;
+        color: #1f295c;
+    }
 }
