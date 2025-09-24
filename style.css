@@ -22,8 +22,8 @@ aside ul li {
 
 .design-selection {
   position: absolute;
-  top: 520px; /* Posiciona abaixo da seção de introdução */
-  left: 62%;  /* Alinha à direita do painel 'explanation' */
+  top: 520px;
+  left: 62%;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -127,4 +127,27 @@ abbr {font-variant: small-caps;}
     align-self: center;
 }
     
-    
+/* exercícios pseudo classes */
+
+a {
+    color: #ff1492;
+}
+
+a:hover {
+    color: #8b263fa1;
+}
+
+.main :first-of-type:first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    flotat: left;
+}
+
+.design-selection li {
+    border-top: #1f295c solid 1px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #1f295c solid 1px;
+    padding-bottom: 5px;
+}
